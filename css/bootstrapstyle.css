@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar-header{
+    height: 10vh;
+    width: 100%;
+    background-color: lightyellow;
+}
+.navbar-nav{
+    display: flex;
+    gap: 5%;
+    margin-left: 15%;
+}
+.navbar-nav li{
+    list-style: none;
+    margin-top: 2%;
+}
+.navbar-nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 135%;
+}
+.navbar-nav a:hover{
+    /* background-color: lightblue; */
+    color: whitesmoke;
+    background-color: black;
+    width: 12%;
+    padding: 2px;
+}
